@@ -25,5 +25,6 @@ with open("expenses.txt", "a") as file:
         file.write(f"₹{amount}\n")
     file.write(f"➡️ Total: ₹{total}\n")
 
+print("✨ Now with saved logs and today's date!")
 print(f"\n✅ Total expenses today: ₹{total}")
 print("💾 Saved to expenses.txt")
